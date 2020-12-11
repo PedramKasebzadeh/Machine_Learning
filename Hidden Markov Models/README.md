@@ -1,5 +1,7 @@
 # Hidden Markov Models
 
+Here I model the behavior of a robot that walks around a ring. The ring is divided into 10 sectors. At any given time point, the robot is in one of the sectors and decides with equal probability to stay in that sector or move to the next sector. The robot is equipped with a tracking device. The device is not very accurate though: If the robot is in the sector i, then the device will report that the robot is in the sectors [i − 2; i + 2] with equal probability.
+
 ## Tasks:
 
 1. Build a hidden Markov model
